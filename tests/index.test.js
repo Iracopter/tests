@@ -10,3 +10,15 @@ describe('keypress', ()=> {
       expect(spy).toHaveBeenCalledWith({block: "center", behavior: "smooth"}); 
     });
   });
+
+
+describe('changesize', function() {
+    var image=getElementById('my_photo');
+  
+    it('should set the image scale to 1.75', function() {
+
+      changesize();
+      expect(image.style.transform).toEqual('scale(1.75)');
+    });
+  });
+  
