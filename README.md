@@ -1,1 +1,1 @@
-# Browser test env for [Jasmine](https://jasmine.github.io/)
+В гілці main тести до завдання 24, в іншій гілці тести до 28 завдання
